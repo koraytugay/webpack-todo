@@ -18,4 +18,4 @@ if (module.hot) {
 }
 ```
 - Application can easily be debugged using IntelliJ with a DebugJS configuration
-  - I needed to add remote url: webpack:///. to make debugging work, see `intellij.png`
+  - I needed to add remote url: `webpack:///.` to make debugging work, see `intellij.png`
