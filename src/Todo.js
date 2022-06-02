@@ -4,7 +4,7 @@ export default class Todo {
 
   constructor(text) {
     this.id = Todo.idCounter++;
-    this.text = text;
+    text;
     this.complete = false;
   }
 }
